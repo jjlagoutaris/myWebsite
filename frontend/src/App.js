@@ -1,6 +1,7 @@
 import React from 'react'
 
-import { About, Footer, Header, Skills, Testimonials, Creations, Education } from './container';
+// eslint-disable-next-line no-unused-vars
+import { About, Footer, Header, Skills, Creations, Education } from './container';
 import { Navbar } from './components';
 import './App.scss'
 
@@ -12,7 +13,7 @@ const App = () => {
       <About />
       <Creations />
       <Skills />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Education />
       <Footer />
     </div>
