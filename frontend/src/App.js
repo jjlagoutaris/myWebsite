@@ -3,7 +3,7 @@ import React from 'react'
 // eslint-disable-next-line no-unused-vars
 import { About, Footer, Header, Skills, Creations, Education } from './container';
 import { Navbar } from './components';
-import './App.scss'
+import './App.scss';
 
 const App = () => {
   return (
@@ -20,4 +20,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
