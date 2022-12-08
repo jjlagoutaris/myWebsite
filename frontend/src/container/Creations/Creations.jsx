@@ -41,7 +41,7 @@ const Creations = () => {
   return (
     <>
       <h2 className="head-text">
-        My Creative <span>Portfolio</span> Section
+        <span>Portfolio</span>
       </h2>
 
       <div className="app__creations-filter">

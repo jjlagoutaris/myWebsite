@@ -1,4 +1,5 @@
 import React from 'react'
+import { AppWrap, MotionWrap } from '../../wrapper'
 
 import './Education.scss'
 
@@ -8,4 +9,8 @@ const Education = () => {
   )
 }
 
-export default Education
+export default AppWrap(
+  MotionWrap(Education, "app__education"),
+  "education",
+  "app__primarybg"
+);

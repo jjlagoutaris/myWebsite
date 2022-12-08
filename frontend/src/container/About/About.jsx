@@ -5,13 +5,6 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import "./About.scss";
 import { urlFor, client } from "../../client";
 
-// const abouts = [
-//   { title: "Web Development", description: "I am a good web developer", imgUrl: images.about01, },
-//   { title: "Frontend Development", description: "I am a good web developer", imgUrl: images.about02, },
-//   { title: "Backend Development", description: "I am a good web developer", imgUrl: images.about03, },
-//   { title: "Modern Technologies", description: "I am a good web developer", imgUrl: images.about04, },
-// ];
-
 const About = () => {
   const [abouts, setAbouts] = useState([]);
 
@@ -56,5 +49,5 @@ const About = () => {
 export default AppWrap(
   MotionWrap(About, "app__about"),
   "about",
-  "app__primarybg"
+  "app__whitebg"
 );
