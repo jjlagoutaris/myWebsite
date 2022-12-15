@@ -7,15 +7,15 @@ import { urlFor, client } from "../../client";
 import "./Skills.scss";
 
 const Skills = () => {
-  const [experiences, setExperiences] = useState([]);
+  const [education, setEducation] = useState([]);
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "experiences"]';
+    const query = '*[_type == "education"]';
     const skillsQuery = '*[_type == "skills"]';
 
     client.fetch(query).then((data) => {
-      setExperiences(data);
+      setEducation(data);
     });
 
     client.fetch(skillsQuery).then((data) => {
@@ -25,7 +25,7 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text">Skills</h2>
+      <h2 className="head-text">Skills & Education</h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
@@ -46,33 +46,33 @@ const Skills = () => {
             </motion.div>
           ))}
         </motion.div>
-        <div className="app__skills-exp">
-          {experiences.map((experience) => (
-            <motion.div className="app__skills-exp-item" key={experience.year}>
-              <div className="app__skills-exp-year">
-                <p className="bold-text">{experience.year}</p>
+        <div className="app__skills-edu">
+          {education.map((education) => (
+            <motion.div className="app__skills-edu-item" key={education.year}>
+              <div className="app__skills-edu-year">
+                <p className="bold-text">{education.year}</p>
               </div>
-              <motion.div className="app__skills-exp-works">
-                {experience.works.map((work) => (
+              <motion.div className="app__skills-edu-works">
+                {education.schools.map((school) => (
                   <>
                     <motion.div
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
-                      className="app__skills-exp-work"
+                      className="app__skills-edu-work"
                       data-tip
-                      data-for={work.name}
-                      key={work.name}
+                      data-for={school.name}
+                      key={school.name}
                     >
-                      <h4 className="bold-text">{work.name}</h4>
-                      <p className="p-text">{work.company}</p>
+                      <h4 className="bold-text">{school.name}</h4>
+                      <p className="p-text">{school.school}</p>
                     </motion.div>
                     <ReactTooltip
-                      id={work.name}
+                      id={school.name}
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
                     >
-                      {work.desc}
+                      {school.description}
                     </ReactTooltip>
                   </>
                 ))}

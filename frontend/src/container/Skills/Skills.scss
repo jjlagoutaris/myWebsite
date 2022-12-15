@@ -81,7 +81,7 @@
   }
 }
 
-.app__skills-exp {
+.app__skills-edu {
   flex: 1;
   display: flex;
   justify-content: flex-start;
@@ -93,7 +93,7 @@
   }
 }
 
-.app__skills-exp-item {
+.app__skills-edu-item {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -102,10 +102,10 @@
   margin: 1rem 0;
 }
 
-.app__skills-exp-works {
+.app__skills-edu-works {
   flex: 1;
 
-  .app__skills-exp-work {
+  .app__skills-edu-work {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -125,7 +125,7 @@
   }
 }
 
-.app__skills-exp-year {
+.app__skills-edu-year {
   margin-right: 3rem;
 
   p {

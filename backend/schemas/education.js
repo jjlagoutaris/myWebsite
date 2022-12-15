@@ -1,22 +1,18 @@
-export default {
+export default{
   name:'education',
   title:'Education',
-  type:'document',
+  type: 'document',
   fields:[
-          {  
-             name:'name',
-             title:'Name',
-             type:'string'
-          },
-          {
-              name:'major',
-              title:'Major',
-              type:'string'
-          },
-          {
-              name:'university',
-              title:'University',
-              type:'string'
-          }
+      {
+          name:'year',
+          title:'Year',
+          type:'string'
+      },
+      {
+          name:'schools',
+          title:'Schools',
+          type:'array',
+          of:[{ type:'school'}]
+      },
   ]
 }
