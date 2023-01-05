@@ -63,8 +63,8 @@ const Skills = () => {
                       data-for={school.name}
                       key={school.name}
                     >
-                      <h4 className="bold-text">{school.name}</h4>
-                      <p className="p-text">{school.school}</p>
+                      <h4 className="bold-text"><b>{school.name}</b></h4>
+                      <p className="p-text"><b>{school.school}</b></p>
                     </motion.div>
                     <ReactTooltip
                       id={school.name}
@@ -72,7 +72,7 @@ const Skills = () => {
                       arrowColor="#fff"
                       className="skills-tooltip"
                     >
-                      {school.description}
+                      <b>{school.major}</b> - {school.description}
                     </ReactTooltip>
                   </>
                 ))}
