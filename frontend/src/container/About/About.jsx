@@ -18,9 +18,9 @@ const About = () => {
     <>
       <h2 className="head-text">
         {" "}
-        I know that <span> Good Apps</span>
+        <span> Good Programming</span>
         <br />
-        mean<span> Good Business</span>
+        means <span> Good Products</span>
       </h2>
 
       <div className="app__profiles">

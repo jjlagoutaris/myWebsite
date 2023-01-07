@@ -72,7 +72,7 @@ const Skills = () => {
                       arrowColor="#fff"
                       className="skills-tooltip"
                     >
-                      <b>{school.major}</b> - {school.description}
+                      <b>{school.major}</b>: {school.description}
                     </ReactTooltip>
                   </>
                 ))}

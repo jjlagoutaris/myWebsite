@@ -24,6 +24,7 @@ import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
 import profile from '../assets/profile.png';
+import profile1 from '../assets/profile.jpg';
 import circle from '../assets/circle.svg';
 import logo from '../assets/myLogo.png';
 
@@ -34,6 +35,7 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import bgg from "../assets/bgg.jpg";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -61,6 +63,7 @@ export default {
   about03,
   about04,
   profile,
+  profile1,
   circle,
   logo,
   adidas,
@@ -70,4 +73,5 @@ export default {
   nb,
   skype,
   spotify,
+  bgg,
 };
