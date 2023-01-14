@@ -14,5 +14,14 @@ export default{
           type:'array',
           of:[{ type:'school'}]
       },
+  ],
+  orderings: [
+    {
+      title: 'Chronological',
+      name: 'educationYearAsc',
+      by: [
+        {field: 'year', direction: 'asc'}
+      ]
+    },
   ]
 }
