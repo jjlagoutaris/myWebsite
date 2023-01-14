@@ -7,6 +7,10 @@
   background-color: var(--white-color);
 }
 
+.app__secondarybg {
+  background-color: var(--purple-color);
+}
+
 .app__primarybg {
   background-color: var(--primary-color);
 }
@@ -55,11 +59,11 @@
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
-  color: var(--black-color);
   text-transform: capitalize;
+  font-family: var(--font-handwriting);
 
   span {
-    color: var(--secondary-color);
+    color: var(--black-color);
   }
 
   @media screen and (min-width: 2000px) {
@@ -72,10 +76,12 @@
 }
 
 .p-text {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: left;
-  color: var(--gray-color);
+  color: var(--secondary-color);
+  font-weight: bold;
   line-height: 1.5;
+  font-family: 'Permanent Marker', cursive;
 
   @media screen and (min-width: 2000px) {
     font-size: 1.75rem;
@@ -83,10 +89,11 @@
 }
 
 .bold-text {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 800;
   color: var(--black-color);
   text-align: left;
+  font-family: var(--font-handwriting);
 
   @media screen and (min-width: 2000px) {
     font-size: 2rem;
@@ -95,6 +102,14 @@
   @media screen and (max-width: 450px) {
     font-size: 0.9rem;
   }
+}
+
+.bold-text-formal, .p-text-formal, .head-text-formal {
+  font-family: var(--font-formal);
+}
+
+.p-text-black{
+  color: --var(--black-color);
 }
 
 .app__social {

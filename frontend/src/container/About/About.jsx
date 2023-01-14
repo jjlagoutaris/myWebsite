@@ -18,9 +18,7 @@ const About = () => {
     <>
       <h2 className="head-text">
         {" "}
-        <span> Good Programming</span>
-        <br />
-        means <span> Good Products</span>
+        <span> ABOUT ME </span>
       </h2>
 
       <div className="app__profiles">
@@ -36,7 +34,7 @@ const About = () => {
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
-            <p className="p-text" style={{ marginTop: 10 }}>
+            <p className="p-text-formal" style={{ marginTop: 10 }}>
               {about.description}
             </p>
           </motion.div>

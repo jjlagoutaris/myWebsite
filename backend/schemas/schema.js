@@ -6,10 +6,9 @@ import abouts from "./abouts";
 import skills from "./skills";
 import school from "./school";
 import education from "./education";
-import contact from "./contact";
 
 export default createSchema({
   name: "default",
 
-  types: schemaTypes.concat([creations, abouts, skills, school, education, contact]),
+  types: schemaTypes.concat([creations, abouts, skills, school, education]),
 });

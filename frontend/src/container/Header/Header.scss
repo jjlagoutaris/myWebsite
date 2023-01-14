@@ -1,13 +1,14 @@
 #home {
   position: relative;
-  background: url("../../assets/bgIMG.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
+  background-color: var(--primary-color);
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: repeat;
 
   // disable the default padding styles
   .app__wrapper {
     padding: 0;
+    padding-bottom: 100px;
 
     .copyright {
       display: none;

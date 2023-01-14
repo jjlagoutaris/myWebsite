@@ -41,7 +41,7 @@ const Creations = () => {
   return (
     <>
       <h2 className="head-text">
-        <span>Portfolio</span>
+        <span>My Portfolio</span>
       </h2>
 
       <div className="app__creations-filter">
@@ -49,7 +49,7 @@ const Creations = () => {
           <div
             key={index}
             onClick={() => handleCreationsFilter(item)}
-            className={`app__creations-filter-item app__flex p-text ${
+            className={`app__creations-filter-item app__flex p-text-formal ${
               activeFilter === item ? "item-active" : ""
             }`}
           >
@@ -106,12 +106,12 @@ const Creations = () => {
 
             <div className="app__creations-content app__flex">
               <h4 className="bold-text">{creations.title}</h4>
-              <p className="p-text" style={{ marginTop: 10 }}>
+              <p className="p-text-formal" style={{ marginTop: 10 }}>
                 {creations.description}
               </p>
 
               <div className="app__creations-tag app__flex">
-                <p className="p-text">{creations.tags[0]}</p>
+                <p className="p-text-formal">{creations.tags[0]}</p>
               </div>
             </div>
           </div>

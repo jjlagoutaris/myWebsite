@@ -2,14 +2,17 @@
 
 :root {
   --font-base: "DM Sans", sans-serif;
+  --font-handwriting: 'Permanent Marker', cursive;
+  --font-formal: 'Montserrat', sans-serif;
 
-  --primary-color: #edf2f8;
-  --secondary-color: #313bac;
+  --primary-color: #FFD43A;
+  --secondary-color: #582C12;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
   --brown-color: #46364a;
-  --white-color: #ffffff;
+  --white-color: #FFFFFF;
+  --purple-color: #D668E3;
 }
 
 * {

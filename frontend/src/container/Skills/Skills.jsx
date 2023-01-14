@@ -25,7 +25,7 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text">Skills & Education</h2>
+      <h2 className="head-text-formal head-text">Skills & Education</h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
@@ -42,7 +42,7 @@ const Skills = () => {
               >
                 <img src={urlFor(skill.icon)} alt={skill.name} />
               </div>
-              <p className="p-text">{skill.name}</p>
+              <p className="p-text p-text-formal">{skill.name}</p>
             </motion.div>
           ))}
         </motion.div>
@@ -63,8 +63,8 @@ const Skills = () => {
                       data-for={school.name}
                       key={school.name}
                     >
-                      <h4 className="bold-text"><b>{school.name}</b></h4>
-                      <p className="p-text"><b>{school.school}</b></p>
+                      <h4 className="bold-text bold-text-formal"><b>{school.name}</b></h4>
+                      <p className="p-text p-text-formal"><b>{school.school}</b></p>
                     </motion.div>
                     <ReactTooltip
                       id={school.name}
