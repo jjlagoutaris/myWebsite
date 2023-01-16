@@ -12,7 +12,7 @@ const Skills = () => {
 
   useEffect(() => {
     const query = '*[_type == "education"] | order(year)';
-    const skillsQuery = '*[_type == "skills"]';
+    const skillsQuery = '*[_type == "skills"] | order(name)';
 
     client.fetch(query).then((data) => {
       setEducation(data);

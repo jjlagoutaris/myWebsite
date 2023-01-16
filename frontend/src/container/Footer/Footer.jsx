@@ -19,6 +19,10 @@ const Footer = () => {
           <img src={images.mobile} alt="phone" />
           <a href="tel:+1 (508) 733-5214" className="p-text p-text-formal">+1 (508) 733-5214</a>
         </div>
+        <div className="app__footer-card">
+          <img src={images.linkedin} alt="linkedin" />
+          <a href="https://www.linkedin.com/in/john-lagoutaris-a67ba0224/" className="p-text p-text-formal">My LinkedIn</a>
+        </div>
       </div>
     </>
   );

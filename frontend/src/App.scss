@@ -7,10 +7,6 @@
   background-color: var(--white-color);
 }
 
-.app__secondarybg {
-  background-color: var(--purple-color);
-}
-
 .app__primarybg {
   background-color: var(--primary-color);
 }
@@ -175,7 +171,7 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #cbcbcb;
+    background-color: var(--purple-color);
     margin: 0.5rem;
 
     transition: background-color 0.2s ease-in-out;
