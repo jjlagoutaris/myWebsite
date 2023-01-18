@@ -137,8 +137,8 @@
     }
 
     &:hover {
-      background-color: var(--secondary-color);
-      border-color: var(--secondary-color);
+      background-color: var(--black-color);
+      border-color: var(--black-color);
 
       svg {
         color: var(--white-color);
@@ -171,13 +171,13 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: var(--purple-color);
+    background-color: var(--black-color);
     margin: 0.5rem;
 
     transition: background-color 0.2s ease-in-out;
 
     &:hover {
-      background-color: var(--secondary-color);
+      background-color: #ffdde1;
     }
 
     @media screen and (min-width: 2000px) {
