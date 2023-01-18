@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myWebsite/static/css/main.85dc191a.css",
+    "main.js": "/myWebsite/static/js/main.ac4d5c16.js",
+    "static/media/profile.png": "/myWebsite/static/media/profile.883574a88ea9021dd7bd.png",
+    "static/media/bgWhite.png": "/myWebsite/static/media/bgWhite.79658cadae50b3b16ee5.png",
+    "static/media/myLogo.png": "/myWebsite/static/media/myLogo.f89e9c6159d03dec845b.png",
+    "static/media/sass.png": "/myWebsite/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/linkedin.png": "/myWebsite/static/media/linkedin.d21b834035baa551e886.png",
+    "static/media/node.png": "/myWebsite/static/media/node.8683d89cf78ffae3d1f7.png",
+    "static/media/cpp.png": "/myWebsite/static/media/cpp.9002a804bbfa0354d0b8.png",
+    "static/media/mobile.png": "/myWebsite/static/media/mobile.145d9ce0157a56f8fcd8.png",
+    "static/media/email.png": "/myWebsite/static/media/email.37b9e890eea501421fbf.png",
+    "static/media/css.png": "/myWebsite/static/media/css.5721a3928fe43de6baf8.png",
+    "static/media/git.png": "/myWebsite/static/media/git.a54d3fa44e02f2f61e69.png",
+    "index.html": "/myWebsite/index.html",
+    "static/media/circle.svg": "/myWebsite/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
+    "main.85dc191a.css.map": "/myWebsite/static/css/main.85dc191a.css.map",
+    "main.ac4d5c16.js.map": "/myWebsite/static/js/main.ac4d5c16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85dc191a.css",
+    "static/js/main.ac4d5c16.js"
+  ]
+}
