@@ -49,6 +49,13 @@
     text-transform: uppercase;
     color: var(--black-color);
   }
+
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    display: none;
+    text-align: center;
+    background-color: #ffdde1;
+  }
 }
 
 .head-text {
