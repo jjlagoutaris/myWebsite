@@ -1,3 +1,3 @@
 # myWebsite
 
-Live portfolio: https://johnlagoutaris.netlify.app/#home
+Live portfolio: https://johnlagoutaris.netlify.app
