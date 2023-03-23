@@ -8,7 +8,7 @@ const SocialMedia = () => (
       <a href="https://github.com/jjlagoutaris" target="_blank" rel="noreferrer"><BsGithub /></a>
     </div>
     <div>
-      <a href="https://www.linkedin.com/in/john-lagoutaris-a67ba0224/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+      <a href="https://www.linkedin.com/in/johnlagoutaris/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
     </div>
     <div>
       <a href="https://boardgamegeek.com/user/TheOriginalNihilist" target="_blank" rel="noreferrer"><img src={images.bgg} className="bgg" alt="BoardGameGeek logo"></img></a>
